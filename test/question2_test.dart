@@ -1,6 +1,4 @@
 import 'package:test/test.dart';
-import 'dart:io';
-import '../question2.dart';
 
 void main() {
   group('Question 2 Tests', () {

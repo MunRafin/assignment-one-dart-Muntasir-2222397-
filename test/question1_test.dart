@@ -6,7 +6,7 @@ void main() {
   group('Question 1 Tests', () {
     test('calculateBMI function works correctly', () {
       // Test BMI calculation - convert feet to meters (5.9 ft = 1.8 m)
-      double bmi = calculateBMI(150.0, 1.8);
+      final bmi = calculateBMI(150, 1.8);
       expect(bmi, closeTo(46.3, 0.1)); // Expected BMI for 150lbs, 1.8m
     });
     
